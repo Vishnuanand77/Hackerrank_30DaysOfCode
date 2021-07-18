@@ -17,6 +17,9 @@ import sys
 
 def solve(meal_cost, tip_percent, tax_percent):
     # Write your code here
+    tip = meal_cost * (float(tip_percent) * 0.01)
+    tax = meal_cost * (float(tax_percent) * 0.01)
+    print(round(meal_cost + tip + tax))
 
 if __name__ == '__main__':
     meal_cost = float(input().strip())
