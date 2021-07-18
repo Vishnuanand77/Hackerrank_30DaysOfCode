@@ -1,4 +1,4 @@
-#Day 3: Intro to Conditional Statements
+#Day 3 : Intro to Conditional Statements
 
 #!/bin/python3
 
