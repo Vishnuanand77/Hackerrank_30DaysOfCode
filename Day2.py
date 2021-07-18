@@ -23,9 +23,8 @@ def solve(meal_cost, tip_percent, tax_percent):
 
 if __name__ == '__main__':
     meal_cost = float(input().strip())
-
     tip_percent = int(input().strip())
-
     tax_percent = int(input().strip())
 
+    #Function Call
     solve(meal_cost, tip_percent, tax_percent)
