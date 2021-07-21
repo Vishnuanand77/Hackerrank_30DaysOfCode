@@ -1,7 +1,5 @@
 # Day 7 : Arrays
 
-#!/bin/python3
-
 import math
 import os
 import random
