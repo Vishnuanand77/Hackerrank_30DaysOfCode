@@ -1,7 +1,5 @@
 # Day 5 : Loops
 
-#!/bin/python3
-
 import math
 import os
 import random
