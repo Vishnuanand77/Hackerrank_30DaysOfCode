@@ -3,6 +3,7 @@
 phonebook = {}
 entries = int(input())
 
+#Using try-except to catch any errors
 for n in range(entries):
     name, num = input().strip().split(' ')
     name, num = [str(name), int(num)]
